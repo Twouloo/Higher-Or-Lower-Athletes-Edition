@@ -4,151 +4,101 @@
         "Description": "number of submissions in the UFC",
         "Score": 11,
         "Image": "https://www.mmaindia.com/wp-content/uploads/2020/04/57acc78f-2285-4774-89c1-6f6928421598-USP_MMA__UFC_229-Nurmagomedov_vs_McGregor.jpg",
-<<<<<<< HEAD
         "Hint": "He set the highest record of 21 takedowns landed in a UFC match.",
         "Source": "Stepehn R. Sylvanie"
-=======
-        "Hint": "He set the highest record of 21 takedowns landed in a UFC match."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Richie McCaw",
         "Description": "number of tackles in the Rugby world cup." ,
         "Score": 1231,
         "Image": "https://static01.nyt.com/images/2012/10/19/sports/rugby/19iht-rugby19-Ritchie-McCaw/19iht-rugby19-Ritchie-McCaw-superJumbo.jpg",
-<<<<<<< HEAD
         "Hint": "He holds the record for the most home runs in the MLB beating second place by 7.",
         "Source": "DANIELMUNOZ / REUTERS"
-=======
-        "Hint": "He holds the record for the most home runs in the MLB beating second place by 7."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Christiano Ronaldo",
         "Description": "penalty kicks scored",
         "Score": 160,
         "Image": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt2e9bb6830f0ab51c/637cd15418c4ea11e1958078/Ronaldo(21).jpg?auto=webp&format=pjpg&width=3840&quality=60",
-<<<<<<< HEAD
         "Hint": "He has hit 85% of his penalty kicks.",
         "Source": "Jason Lin"
-=======
-        "Hint": "He has hit 85% of his penalty kicks."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Micky Mantle",
         "Description": "longest home run hit in an MLB game (feet)",
         "Score": 634,
         "Image": "https://mlblogsopeningday.files.wordpress.com/2014/03/7-mantle.jpg",
-<<<<<<< HEAD
         "Hint": "The shortest home run ever hit was 302 feet in Fenway Park.",
         "Source": "Louis Requena /MLB via Getty Images"
-=======
-        "Hint": "The shortest home run ever hit was 302 feet in Fenway Park."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Barry Bonds",
         "Description": "number of homeruns" ,
         "Score": 1231,
         "Image": "https://ca-times.brightspotcdn.com/dims4/default/7df7f88/2147483647/strip/true/crop/1992x1474+0+0/resize/1200x888!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F07%2Fde%2F72e1930f45f0ba0ee978bf5bdd97%2Fcandlestick-farewell-football.JPEG",
-<<<<<<< HEAD
         "Hint": "He holds the record for the most home runs in the MLB beating second place by 7.",
         "Source": "Ben Margot"
-=======
-        "Hint": "He holds the record for the most home runs in the MLB beating second place by 7."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Lin Dan",
         "Description": "number of shots his longest rally lasted." ,
         "Score": 89,
-<<<<<<< HEAD
         "Image": "https://apicms.thestar.com.my/uploads/images/2020/07/11/752952.jpg",
         "Hint": "The rally lasted 2 minutes.",
         "Source": "S.S.KANESAN"
-=======
-        "Image": "https://static01.nyt.com/images/2012/08/06/sports/BADMINTON1/BADMINTON1-superJumbo.jpg",
-        "Hint": "The rally lasted 2 minutes."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Manny Pacquiao",
         "Description": "most punches thrown in a boxing match" ,
         "Score": 1231,
         "Image": "https://imageio.forbes.com/specials-images/imageserve/61473b074d8c20c3b21f4c4a/0x0.jpg?format=jpg&crop=3025,1702,x0,y153,safe&height=900&width=1600&fit=bounds",
-<<<<<<< HEAD
         "Hint": "His opponent threw 399 punches in the fight.",
         "Source": "AP"
-=======
-        "Hint": "His opponent threw 399 punches in the fight."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Jon Jones",
         "Description": "years old when becoming a UFC champion for the first times" ,
         "Score": 23,
         "Image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/gallery_collapsed_desktop_1x/s3/2023-02/030423-Jon-Jones-Thumb.jpg?itok=CR8oVe8d",
-<<<<<<< HEAD
         "Hint": "He has the record for becoming the youngest UFC champion ever.",
         "Source": "Getty Images"
-=======
-        "Hint": "He has the record for becoming the youngest UFC champion ever."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Conor Mcgregor",
         "Description": "number of KO / TKOs",
         "Score": 19,
         "Image": "https://phantom-marca.unidadeditorial.es/ba8450ba1f01c8a54b742d5d1d2a2e08/crop/0x0/2044x1363/resize/828/f/jpg/assets/multimedia/imagenes/2023/12/05/17017761705952.jpg",
-<<<<<<< HEAD
         "Hint": "Conor has won 22 matches and lost 2.",
         "Source": "John Locher"
-=======
-        "Hint": "Conor has won 22 matches and lost 2."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Tiger Woods",
         "Description": "number of hole in ones",
         "Score": 20,
         "Image": "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/I3K7MKMIDJIZTJAT4JSQEZVFAA.jpg",
-<<<<<<< HEAD
         "Hint": "Tiger Woods has scored a hole in one in at least 4 different tournament organizations.",
         "Source": "USA TODAY Sports"
-=======
-        "Hint": "Tiger Woods has scored a hole in one in at least 4 different tournament organizations."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Novak Djokovic",
         "Description": "number of shots his longest rally lasted",
         "Score": 22,
         "Image": "https://media.cnn.com/api/v1/images/stellar/prod/240123105102-05-australian-open-012324-novak-djokovic.jpg?c=16x9&q=h_833,w_1480,c_fill",
-<<<<<<< HEAD
         "Hint": "The longest rally was achieved during in a match against Rafael Nadal.",
         "Source": "Daniel Pockett/Getty Images"
-=======
-        "Hint": "The longest rally was achieved during in a match against Rafael Nadal."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Lionel Messi",
         "Description": "number of goals scored",
         "Score": 821,
         "Image": "https://pbs.twimg.com/media/C17K3wRW8AAXaeb.jpg:large",
-<<<<<<< HEAD
         "Hint": "Counts penalties scored at the start of Messi's career in 2004.",
         "Source": "Reuters"
-=======
-        "Hint": "Counts penalties scored at the start of Messi's career in 2004."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Lebron James",
         "Description": "number of slam dunks in the NBA",
         "Score": 2107,
-<<<<<<< HEAD
         "Image": "https://www.usatoday.com/gcdn/presto/2018/10/19/USAT/ed1cee67-05ad-4431-8327-7705a9c5b61e-USP_NBA__Los_Angeles_Lakers_at_Portland_Trail_Blaz.JPG?crop=2858,3306,x0,y648&width=300&height=348&format=pjpg&auto=webp",
         "Hint": "Lebron ranked 4th highest dunker of all time.",
         "Source": "USA TODAY Sports"
@@ -160,9 +110,6 @@
         "Image": "https://nypost.com/wp-content/uploads/sites/2/2020/04/halfthor-bjornsson-deadlift-record.jpg?resize=1536,1097&quality=75&strip=all",
         "Hint": "He is a `world record` holder for the deadlift.",
         "Source": "Runar Geirmundsson"
-=======
-        "Image": "https://a-static.besthdwallpaper.com/lebron-james-dunk-wallpaper-2400x1350-88709_50.jpg",
-        "Hint": "Lebron ranked 4th highest dunker of all time."
     },
     {
         "Name": "Thor Berjson",
@@ -170,211 +117,134 @@
         "Score": 2151,
         "Image": "https://fitnessvolt.com/wp-content/uploads/2020/04/thor-bjornsson.jpg",
         "Hint": "He is a `world record` holder for the deadlift."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Michael Phelps",
         "Description": "number of seconds his maximum breath-hold lasted",
         "Score": 300,
-<<<<<<< HEAD
         "Image": "https://www.theguardian.com/sport/blog/2012/jun/25/50-stunning-olympic-moments-michael-phelps#img-1",
         "Hint": "He beats the average person by 500%.",
         "Source": "Mark J Terrill"
-=======
         "Image": "https://hips.hearstapps.com/hmg-prod/images/michael-phelps-of-the-united-states-celebrates-winning-gold-in-the-mens-200m-butterfly-final-on-day-4-of-the-rio-2016-olympic-games-at-the-olympic-aquatics-stadium-on-august-9-2016-in-rio-de-janeiro-b.jpg",
-        "Hint": "He beats the average person by 500%."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Mike Tyson",
         "Description": "fastest championship knockout match lasted in seconds",
         "Score": 91,
-<<<<<<< HEAD
         "Image": "https://static01.nyt.com/images/2020/11/28/sports/27tyson2-print/27tyson2-superJumbo.jpg?quality=75&auto=webp",
         "Hint": "Mike Tyson was 34 - 0 prior to this fight.",
         "Source": "Douglas C. Pizac"
-=======
-        "Image": "https://www.bosshunting.com.au/wp-content/uploads/2020/05/Mike-Tyson-Return.jpg",
-        "Hint": "Mike Tyson was 34 - 0 prior to this fight."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Ivan Zaytsev",
         "Description": "Km per hour speed his world record volleyball serve was",
         "Score": 132,
         "Image": "https://s21466.pcdn.co/wp-content/uploads/2018/03/Zaytsev.jpg",
-<<<<<<< HEAD
         "Hint": "He has won 4 different serve related awards.",
         "Source": ""
-=======
-        "Hint": "He has won 4 different serve related awards."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Usain Bolt",
         "Description": "Km per hour speed of his top speed",
         "Score": 44,
-<<<<<<< HEAD
         "Image": "https://www.flickr.com/photos/34128229@N06/3267679757",
         "Hint": "'Fastest man on earth'.",
         "Source": "friskytuna"
-=======
-        "Image": "https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/itgo4fceaazaicrrl7b2",
-        "Hint": "'Fastest man on earth'."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Mark Zuckerberg",
         "Description": " medals won in BJJ",
         "Score": 2,
-<<<<<<< HEAD
         "Image": "https://i.guim.co.uk/img/media/98bf6d48632afd4771889fc83b3531e92ec670a2/0_45_925_555/master/925.jpg?width=1900&dpr=1&s=none",
         "Hint": "He is quite rich.",
         "Source": "@Zuck"
-=======
-        "Image": "https://content.api.news/v3/images/bin/acda292c42b2130ceddc9a17bcfa012d",
-        "Hint": "He is quite rich."
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Stephen Curry",
         "Description": "total three-point shots hit",
         "Score": 3615,
-<<<<<<< HEAD
         "Image": "https://frontofficesports.com/wp-content/uploads/2022/06/Scoreboard-6.16.22-Curry.jpg?resize=720",
         "Hint": "Stephen Curry has the most three pointers made in the NBA",
         "Source": "Kyle Terada"
-=======
-        "Image": "https://res.cloudinary.com/ybmedia/image/upload/c_crop,h_665,w_1182,x_342,y_46/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/1/4/143c2688c2961baa32a7097b0008cf007c52caf0/watch-steph-curry-shoots-lights-out-first-quarter.jpg",
-        "Hint": "Stephen Curry has the most three pointers made in the NBA"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Klay Thompson",
         "Description": "total three-point shots hit in one game",
         "Score": 14,
-<<<<<<< HEAD
         "Image": "https://www.usatoday.com/gcdn/-mm-/0857a418ce9ea2f9bcabc03c973f1af40f8f44f4/c=227-825-2694-2219/local/-/media/2018/05/27/USATODAY/USATODAY/636629809452907811-2018-05-26-Klay-Thompson4.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
         "Hint": "Klay Thompson and Stephen Curry are commonly referred to as the Splash brothers",
         "Source": "Cary Edmondson"
-=======
-        "Image": "https://i.insider.com/62ab37cc8eacc300192df920?width=1000&format=jpeg&auto=webp",
-        "Hint": "Klay Thompson and Stephen Curry are commonly referred to as the Splash brothers"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Rasheed Wallace",
         "Description": "total times kicked out from NBA matches",
         "Score": 29,
-<<<<<<< HEAD
         "Image": "https://ftw.usatoday.com/wp-content/uploads/sites/90/2013/11/sheed.jpg",
         "Hint": "Rasheed Wallace is currently the most ejected player of all time",
         "Source": "Derick E. Hingle"
-=======
-        "Image": "https://staticg.sportskeeda.com/editor/2023/08/5c75c-16916940110075-1920.jpg",
-        "Hint": "Rasheed Wallace is currently the most ejected player of all time"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Davis Love III",
         "Description": "longest golf drive in a PGA tournament (yards)",
         "Score": 476,
-<<<<<<< HEAD
         "Image": "https://www.usatoday.com/gcdn/-mm-/65dfdc90dfec1241fe3f4fd05a2c660258f4427b/c=0-158-4988-2976/local/-/media/2016/04/01/USATODAY/USATODAY/635951207576289702-cxx-jump-24.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
         "Hint": "The average drive of a PGA tour golfer is 277 yards",
         "Source": "Rob Kinnan"
-=======
-        "Image": "https://ekcfbmsotzc.exactdn.com/en/blog/wp-content/uploads/2023/08/PGA-Max-Homa-BMW-BetMGM-1024x578.jpg?strip=all&lossy=1&ssl=1",
-        "Hint": "The average drive of a PGA tour golfer is 277 yards"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Tom Brady",
         "Description": "total passing touchdowns thrown",
         "Score": 649,
-<<<<<<< HEAD
         "Image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/11/720/405/Tom-Brady10.jpg?ve=1&tl=1",
         "Hint": "Tom brady averaged almost 2 passing touchdowns per game in his career",
         "Source": "Matthias Schrader"
-=======
-        "Image": "https://phantom-marca.unidadeditorial.es/00312a04e089c0d499ddee47bb4bc630/crop/0x0/698x465/resize/660/f/webp/assets/multimedia/imagenes/2022/12/30/16724195310107.jpg",
-        "Hint": "Tom brady averaged almost 2 passing touchdowns per game in his career"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Wayne Gretzky",
         "Description": "total assists throughout his hockey career",
         "Score": 1963,
-<<<<<<< HEAD
         "Image": "https://ca-times.brightspotcdn.com/dims4/default/accabb2/2147483647/strip/true/crop/2048x1152+0+0/resize/1200x675!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F4b%2Fdc%2Fe082a764d207bdbbbb8366f7297b%2Fla-dloumena-1479429950-snap-photo",
         "Hint": "Wayne gretzky holds the record for both the most assists and goals in NHL history",
         "Source": "John Wood"
-=======
-        "Image": "https://cdn.britannica.com/99/193199-050-B96E48A0/Wayne-Gretzky-2007.jpg",
-        "Hint": "Wayne gretzky holds the record for both the most assists and goals in NHL history"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Michael Phelps",
         "Description": "gold medals won throughout his career",
         "Score": 23,
         "Image": "https://static01.nyt.com/images/2012/08/05/sports/05oly-phelps4/05oly-phelps4-superJumbo.jpg?quality=75&auto=webp",
-<<<<<<< HEAD
         "Hint": "The second most olympic gold medals held is 9",
         "Source": "Gabriel Bouys"
-=======
-        "Hint": "The second most olympic gold medals held is 9"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Lewis Hamilton",
         "Description": "fastest Belgian Grand Prix lap time (seconds)",
         "Score": 107,
-<<<<<<< HEAD
         "Image": "https://i.guim.co.uk/img/media/91c6e03d0be8909c3b160f311fba2cb942445acb/0_1615_4268_2561/master/4268.jpg?width=1200&quality=85&auto=format&fit=max&s=cafd864b803b2760aa9b111dd29534f2",
         "Hint": "Lewis hamilton currently has 103 victories in the Formula 1",
         "Source": "Ike Edeani"
-=======
-        "Image": "https://imageresizer.static9.net.au/QdynDmapJ66Xg6_aw7hTX1hymQw=/1396x785/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F1331d24c-62ba-4490-9d6a-16d80a18b6cf",
-        "Hint": "Lewis hamilton currently has 103 victories in the Formula 1"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Shaquille O'Neal",
         "Description": "total three point-shots hit throughout his career",
         "Score": 1,
         "Image": "https://i.kym-cdn.com/entries/icons/original/000/029/043/Shaq_Tries_to_Not_Make_a_Face_While_Eating_Spicy_Wings___Hot_Ones_11-21_screenshot.png",
-<<<<<<< HEAD
         "Hint": "Shaq claims to be the most dominant player in NBA history",
         "Source": "Commercial Free"
-=======
-        "Hint": "Shaq claims to be the most dominant player in NBA history"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Magnus Carlsen",
         "Description": "highest chess FIDE rating hit",
         "Score": 2882,
-<<<<<<< HEAD
         "Image": "https://www.theguardian.com/sport/2020/jan/09/magnus-carlsen-i-will-always-be-proud-no1-fantasy-football-chess#img-1",
         "Hint": "Magnus carlsen has held world number one since 2011",
         "Source": "Tom Jenkins"
-=======
-        "Image": "https://media.npr.org/assets/img/2022/07/20/ap21344477319182_custom-32c06406f279c69d5e853bc30649315b43e5cc19.jpg?s=5",
-        "Hint": "Magnus carlsen has held world number one since 2011"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     },
     {
         "Name": "Roger Federer",
         "Description": "longest winning streak in professional tennis games",
         "Score": 43,
-<<<<<<< HEAD
         "Image": "https://i.gyazo.com/4fc85da3a7fafc1d4244eb41dc90f9ed.jpg",
         "Hint": "Roger Federer has the second longest winning streak in tennis history",
         "Source": "Frédéric de Villamil"
-=======
-        "Image": "https://media.gq-magazine.co.uk/photos/5d139f94533a234181c62b54/16:9/w_2240,c_limit/roger-federer-02-gq-20jun18_pa_b.jpg",
-        "Hint": "Roger Federer has the second longest winning streak in tennis history"
->>>>>>> bb9a20772ec272164dd145adefd6faf8a5524b5d
     }
 ]
