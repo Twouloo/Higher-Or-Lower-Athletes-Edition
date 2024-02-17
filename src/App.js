@@ -103,6 +103,14 @@ function App() {
     return message;
   }
 
+  function DetermineHighScore(numberOfQuestionsCorrect) {
+    const setScore = highScore === null ? numberOfQuestionsCorrect : numberOfQuestionsCorrect > highScore ? numberOfQuestionsCorrect : highScore;
+    setHighScore(setScore);
+    localStorage.setItem('highScore', setScore);
+
+    return setScore;
+  }
+
 
   function verifyTagNotNull(answers, currentQuestion) {
 
@@ -211,7 +219,7 @@ function App() {
       : nextAthlete.Score - leftAthlete.Score;
 
     // Returns true or false;
-    const result = answer === 'higher' ? subtractAthleteResult < 0 : subtractAthleteResult > 0;
+    const result = answer === 'higher' ? subtractAthleteResult <= 0 : subtractAthleteResult >= 0;
 
     setAnimationIds(prev => ({ ...prev, [athlete]: true }));
 
@@ -411,6 +419,7 @@ function App() {
           <p className='athlete-score' id={fadeResults === true ? 'hidden' : ''}>{Object.values(answers).splice(0, currentQuestion).reduce((acc, answer) => acc + answer.result, 0)}</p>
         </div>
         <p className='result-description' id={fadeResults === true ? 'hidden' : ''}>{ResultMessage(Object.values(answers).splice(0, currentQuestion).reduce((acc, answer) => acc + answer.result, 0))} </p>
+        <div className='high-score' id={fadeResults === true ? 'hidden' : ''}>High Score: {highScore}</div>
         <p className='play-again-button' id={fadeResults === true ? 'hidden' : ''} onClick={() => { setFadeResults(true); setResultDividerFade(true); setTimeout(() => { window.location.reload(); }, 1000) }}>Back to menu</p>
       </div>
       }
@@ -496,11 +505,11 @@ function App() {
           {HasBegan && <div className='hint-container'>
             {isMobile && <p className='hint-button' onClick={() => setHintOn(true)}>{isMobile ? "🤷‍♂️" : "Show hint"}</p>}
             {!isMobile && !hintOn && <p className='hint-button' onClick={() => setHintOn(true)}>{isMobile ? "🤷‍♂️" : "Show hint"}</p>}
-            {hintOn && <p className='hint-text' id={hintOn ? 'hide' : ''} onClick={() => { setHintOn(false); }}>{gameData[currentQuestion].Hint}</p>}
+            {hintOn && <p className='hint-text' id={hintOn ? 'hide' : ''}>{gameData[currentQuestion].Hint}</p>}
           </div>}
+          
         </div>
       )}
-      <div className='high-score'>High Score: {highScore}</div>
     </div>
   );
 }

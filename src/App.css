@@ -143,6 +143,21 @@
     transition: 0.5s;
   }
 
+  .high-score {
+    position: absolute;
+    right: 0;
+    bottom: 5vh;
+    margin-right: 5vw;
+    font-size: 0.8em;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .high-score{
+      position: relative;
+      font-size: 0.8em;
+      margin-right: 0;
+    }
+  }
 
   #hidden.play-again-button {
     opacity: 0;
@@ -167,15 +182,6 @@
     font-size: calc(10px + 2vmin);
     color: white;
     text-align: center;
-  }
-
-  .high-score {
-    position: absolute;
-    color: white;
-    top: 6vh;
-    left: 5vw;
-    font-size: 0.8em;
-    color:#aeadad;
   }
 
   .titles-container {
@@ -321,7 +327,7 @@
     cursor: default;
     background-color: transparent;
   }
-
+  
   .top-bar {
     display: flex;
     flex-direction: row;
