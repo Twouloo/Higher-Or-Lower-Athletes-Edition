@@ -383,7 +383,7 @@ function App() {
       try {
         const response = await fetch('/athletesInfo.json')
         let data = await response.json();
-        setGameData(data);
+        setGameData(shuffle(data));
         setAthletes({ leftAthlete: data[0], rightAthlete: data[1], nextAthlete: data[2] });
       } catch (error) {
         console.log(error);
