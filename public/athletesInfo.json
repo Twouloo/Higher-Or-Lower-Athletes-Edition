@@ -245,5 +245,30 @@
         "Image": "https://i.gyazo.com/4fc85da3a7fafc1d4244eb41dc90f9ed.jpg",
         "Hint": "Roger Federer has the second longest winning streak in tennis history",
         "Source": "Frédéric de Villamil"
+    },
+    {
+        "Name": "Ronda Rousey",
+        "Description": "Fastest submission in seconds",
+        "Score": 14,
+        "Image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/720/405/rtr4rl9j.jpg?ve=1&tl=1",
+        "Hint": "Ronda Rousey held the womens bantamweight champion title until 2022",
+        "Source": "NBA Today Sports"
+    },
+    {
+        "Name": "Serena Williams",
+        "Description": "Total tennis major titles held",
+        "Score": 39,
+        "Image": "https://e0.365dm.com/22/08/1600x900/skysports-serena-williams-us-open_5880654.jpg?20220830061904",
+        "Hint": "Serena was 4 years old when she won her first tennis tournament",
+        "Source": "SkySports"
+    },
+    {
+        "Name": "Brittney Griner",
+        "Description": "Total dunks in the WNBA",
+        "Score": 26,
+        "Image": "https://www.japantimes.co.jp/uploads/imported_images/uploads/2022/06/np_file_166484.jpeg",
+        "Hint": "Brittney Griner has the most dunks by far in the WNBA",
+        "Source": "Reuters"
     }
+    
 ]
