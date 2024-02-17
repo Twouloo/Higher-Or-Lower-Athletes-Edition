@@ -122,7 +122,7 @@
         "Name": "Michael Phelps",
         "Description": "number of seconds his maximum breath-hold lasted",
         "Score": 300,
-        "Image": "https://www.theguardian.com/sport/blog/2012/jun/25/50-stunning-olympic-moments-michael-phelps#img-1",
+        "Image": "https://i.gyazo.com/462cd27249680d8850ce337e2ba55571.jpg",
         "Hint": "He beats the average person by 500%.",
         "Source": "Mark J Terrill"
     },
@@ -146,7 +146,7 @@
         "Name": "Usain Bolt",
         "Description": "Km per hour speed of his top speed",
         "Score": 44,
-        "Image": "https://www.flickr.com/photos/34128229@N06/3267679757",
+        "Image": "https://i.gyazo.com/771ceab7b10486eb82bec2ab2086abd9.jpg",
         "Hint": "'Fastest man on earth'.",
         "Source": "friskytuna"
     },
@@ -234,7 +234,7 @@
         "Name": "Magnus Carlsen",
         "Description": "highest chess FIDE rating hit",
         "Score": 2882,
-        "Image": "https://www.theguardian.com/sport/2020/jan/09/magnus-carlsen-i-will-always-be-proud-no1-fantasy-football-chess#img-1",
+        "Image": "https://i.gyazo.com/a7d7d33d82528f2475d963f7ca985b0c.jpg",
         "Hint": "Magnus carlsen has held world number one since 2011",
         "Source": "Tom Jenkins"
     },
