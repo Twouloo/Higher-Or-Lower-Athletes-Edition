@@ -23,8 +23,7 @@ function App() {
 
   const [resultDividerFade, setResultDividerFade] = useState(false);
 
-  const [resultMessage, setResultMessage] = useState('');
-
+  const [highScore, setHighScore] = useState(localStorage.getItem('highScore'));
 
   const [athletes, setAthletes] = useState({
     leftAthlete: '',
@@ -79,22 +78,22 @@ function App() {
     setHasBegan(false);
   }
 
-  function ResultMessage (numberOfQuestionsCorrect) {
+  function ResultMessage(numberOfQuestionsCorrect) {
 
     const correctPercent = Math.round(numberOfQuestionsCorrect / gameData.length * 100);
     let message = '';
     let messages = [];
-    if(numberOfQuestionsCorrect < 5) {
+    if (numberOfQuestionsCorrect < 5) {
       messages = ["Oh wow that's impressively bad are you sure you didn't misclick ? Better luck next time. 😭",
-                  "I'm not sure what to say except that is a very low score ! Do better."]
+        "I'm not sure what to say except that is a very low score ! Do better."]
       message = "Oh wow that's impressively bad are you sure you didn't misclick ? Better luck next time. 😭";
     }
     else if (numberOfQuestionsCorrect < 10) {
-      message= "Not too shabby. But could do better. ";
+      message = "Not too shabby. But could do better. ";
     }
 
     else if (numberOfQuestionsCorrect < 20) {
-      message= "Good effort ! You know a lot about athletes, perhaps you'll end up on this list yourself one day.";
+      message = "Good effort ! You know a lot about athletes, perhaps you'll end up on this list yourself one day.";
     }
 
     else if (numberOfQuestionsCorrect > 20) {
@@ -405,8 +404,8 @@ function App() {
     <div className="App">
       {/* End game result screen */}
       {gameOver && <div className='result-container'>
-      <img className='result-background' src="./black-image.png"/>
-      <div className='result-divider' id={resultDividerFade ? 'shrink-out' : ''}></div>
+        <img className='result-background' src="./black-image.png" />
+        <div className='result-divider' id={resultDividerFade ? 'shrink-out' : ''}></div>
         <h5 className='you-scored-title' id={fadeResults === true ? 'hidden' : ''}>You scored: </h5>
         <div className='result-score-container' id={fadeResults === true ? 'hidden' : ''}>
           <p className='athlete-score' id={fadeResults === true ? 'hidden' : ''}>{Object.values(answers).splice(0, currentQuestion).reduce((acc, answer) => acc + answer.result, 0)}</p>
@@ -432,7 +431,7 @@ function App() {
             <div className='top-bar'>
               <p className='arrow-icon' id={!(goBack) ? 'inactive-arrow-icon' : ''} onClick={() => handleNavClick(goBack, 'back')}>{leftArrow}</p>
               <ul className='progress-bar'>
-                <li id={correctTags[verifyTagNotNull(answers, currentQuestion - 1)] + '-inactive-icon'} style = {currentQuestion === 1 ? {color:'transparent'} : {}} >{currentQuestion === 1 ? '-' :currentQuestion - 1}</li>
+                <li id={correctTags[verifyTagNotNull(answers, currentQuestion - 1)] + '-inactive-icon'} style={currentQuestion === 1 ? { color: 'transparent' } : {}} >{currentQuestion === 1 ? '-' : currentQuestion - 1}</li>
                 <li id={correctTags[verifyTagNotNull(answers, currentQuestion)] + '-active-icon'}>{currentQuestion}</li>
                 <li id={correctTags[verifyTagNotNull(answers, currentQuestion + 1)] + '-inactive-icon'}>{currentQuestion === gameData.length - 1 ? '🚧' : currentQuestion + 1}</li>
               </ul>
@@ -501,7 +500,7 @@ function App() {
           </div>}
         </div>
       )}
-
+      <div className='high-score'>High Score: {highScore}</div>
     </div>
   );
 }
