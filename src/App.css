@@ -99,10 +99,9 @@
 
   @media only screen and (max-width: 600px) {
     .result-description {
+      font-size: 1rem;
       width: 60vw;
-    }
-
-    ;
+    };
   }
 
   .score-divider {
@@ -143,6 +142,7 @@
     cursor: pointer;
     transition: 0.5s;
   }
+
 
   #hidden.play-again-button {
     opacity: 0;
@@ -782,11 +782,7 @@
     text-align: center;
     margin-bottom: 0;
     transition: margin 0.3s ease-in-out;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
-
   }
-
-
 
   .right-athlete-image:hover {
     filter: brightness(0.8);

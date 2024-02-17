@@ -23,6 +23,8 @@ function App() {
 
   const [resultDividerFade, setResultDividerFade] = useState(false);
 
+  const [resultMessage, setResultMessage] = useState('');
+
 
   const [athletes, setAthletes] = useState({
     leftAthlete: '',
@@ -75,6 +77,31 @@ function App() {
   function endGame() {
     setGameOver(true);
     setHasBegan(false);
+  }
+
+  function ResultMessage (numberOfQuestionsCorrect) {
+
+    const correctPercent = Math.round(numberOfQuestionsCorrect / gameData.length * 100);
+    let message = '';
+    let messages = [];
+    if(numberOfQuestionsCorrect < 5) {
+      messages = ["Oh wow that's impressively bad are you sure you didn't misclick ? Better luck next time. 😭",
+                  "I'm not sure what to say except that is a very low score ! Do better."]
+      message = "Oh wow that's impressively bad are you sure you didn't misclick ? Better luck next time. 😭";
+    }
+    else if (numberOfQuestionsCorrect < 10) {
+      message= "Not too shabby. But could do better. ";
+    }
+
+    else if (numberOfQuestionsCorrect < 20) {
+      message= "Good effort ! You know a lot about athletes, perhaps you'll end up on this list yourself one day.";
+    }
+
+    else if (numberOfQuestionsCorrect > 20) {
+      message = "Exceptional effort ! You clearly know a thing or two about sports. Are you an athlete ?"
+    }
+
+    return message;
   }
 
 
@@ -349,7 +376,6 @@ function App() {
       try {
         const response = await fetch('/athletesInfo.json')
         let data = await response.json();
-        data = shuffle(data);
         setGameData(data);
         setAthletes({ leftAthlete: data[0], rightAthlete: data[1], nextAthlete: data[2] });
       } catch (error) {
@@ -385,7 +411,7 @@ function App() {
         <div className='result-score-container' id={fadeResults === true ? 'hidden' : ''}>
           <p className='athlete-score' id={fadeResults === true ? 'hidden' : ''}>{Object.values(answers).splice(0, currentQuestion).reduce((acc, answer) => acc + answer.result, 0)}</p>
         </div>
-        <p className='result-description' id={fadeResults === true ? 'hidden' : ''}>Good effort ! You know a lot about athletes, perhaps you'll end up on this list yourself one day. </p>
+        <p className='result-description' id={fadeResults === true ? 'hidden' : ''}>{ResultMessage(Object.values(answers).splice(0, currentQuestion).reduce((acc, answer) => acc + answer.result, 0))} </p>
         <p className='play-again-button' id={fadeResults === true ? 'hidden' : ''} onClick={() => { setFadeResults(true); setResultDividerFade(true); setTimeout(() => { window.location.reload(); }, 1000) }}>Back to menu</p>
       </div>
       }

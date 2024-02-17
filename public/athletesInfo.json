@@ -1,10 +1,66 @@
 [
     {
+        "Name": "Khabib Nurmagomedov",
+        "Description": "number of submissions in the UFC",
+        "Score": 11,
+        "Image": "https://www.mmaindia.com/wp-content/uploads/2020/04/57acc78f-2285-4774-89c1-6f6928421598-USP_MMA__UFC_229-Nurmagomedov_vs_McGregor.jpg",
+        "Hint": "He set the highest record of 21 takedowns landed in a UFC match."
+    },
+    {
+        "Name": "Richie McCaw",
+        "Description": "number of tackles in the Rugby world cup." ,
+        "Score": 1231,
+        "Image": "https://static01.nyt.com/images/2012/10/19/sports/rugby/19iht-rugby19-Ritchie-McCaw/19iht-rugby19-Ritchie-McCaw-superJumbo.jpg",
+        "Hint": "He holds the record for the most home runs in the MLB beating second place by 7."
+    },
+    {
+        "Name": "Christiano Ronaldo",
+        "Description": "penalty kicks scored",
+        "Score": 160,
+        "Image": "https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt2e9bb6830f0ab51c/637cd15418c4ea11e1958078/Ronaldo(21).jpg?auto=webp&format=pjpg&width=3840&quality=60",
+        "Hint": "He has hit 85% of his penalty kicks."
+    },
+    {
+        "Name": "Micky Mantle",
+        "Description": "longest home run hit in an MLB game (feet)",
+        "Score": 634,
+        "Image": "https://mlblogsopeningday.files.wordpress.com/2014/03/7-mantle.jpg",
+        "Hint": "The shortest home run ever hit was 302 feet in Fenway Park."
+    },
+    {
+        "Name": "Barry Bonds",
+        "Description": "number of homeruns" ,
+        "Score": 1231,
+        "Image": "https://ca-times.brightspotcdn.com/dims4/default/7df7f88/2147483647/strip/true/crop/1992x1474+0+0/resize/1200x888!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F07%2Fde%2F72e1930f45f0ba0ee978bf5bdd97%2Fcandlestick-farewell-football.JPEG",
+        "Hint": "He holds the record for the most home runs in the MLB beating second place by 7."
+    },
+    {
+        "Name": "Lin Dan",
+        "Description": "number of shots his longest rally lasted." ,
+        "Score": 89,
+        "Image": "https://static01.nyt.com/images/2012/08/06/sports/BADMINTON1/BADMINTON1-superJumbo.jpg",
+        "Hint": "The rally lasted 2 minutes."
+    },
+    {
+        "Name": "Manny Pacquiao",
+        "Description": "most punches thrown in a boxing match" ,
+        "Score": 1231,
+        "Image": "https://imageio.forbes.com/specials-images/imageserve/61473b074d8c20c3b21f4c4a/0x0.jpg?format=jpg&crop=3025,1702,x0,y153,safe&height=900&width=1600&fit=bounds",
+        "Hint": "His opponent threw 399 punches in the fight."
+    },
+    {
+        "Name": "Jon Jones",
+        "Description": "years old when becoming a UFC champion for the first times" ,
+        "Score": 23,
+        "Image": "https://dmxg5wxfqgb4u.cloudfront.net/styles/gallery_collapsed_desktop_1x/s3/2023-02/030423-Jon-Jones-Thumb.jpg?itok=CR8oVe8d",
+        "Hint": "He has the record for becoming the youngest UFC champion ever."
+    },
+    {
         "Name": "Conor Mcgregor",
         "Description": "number of KO / TKOs",
         "Score": 19,
         "Image": "https://phantom-marca.unidadeditorial.es/ba8450ba1f01c8a54b742d5d1d2a2e08/crop/0x0/2044x1363/resize/828/f/jpg/assets/multimedia/imagenes/2023/12/05/17017761705952.jpg",
-        "Hint": "Conor has won 22 matches and lost 2"
+        "Hint": "Conor has won 22 matches and lost 2."
     },
     {
         "Name": "Tiger Woods",
@@ -15,7 +71,7 @@
     },
     {
         "Name": "Novak Djokovic",
-        "Description": "number of shots his longest rally lasted.",
+        "Description": "number of shots his longest rally lasted",
         "Score": 22,
         "Image": "https://media.cnn.com/api/v1/images/stellar/prod/240123105102-05-australian-open-012324-novak-djokovic.jpg?c=16x9&q=h_833,w_1480,c_fill",
         "Hint": "The longest rally was achieved during in a match against Rafael Nadal."
@@ -36,9 +92,9 @@
     },
     {
         "Name": "Thor Berjson",
-        "Description": "heaviest squat and deadlift combined (lB)",
+        "Description": "heaviest squat and deadlift combined (lb)",
         "Score": 2151,
-        "Image": "https://nypost.com/wp-content/uploads/sites/2/2020/04/halfthor-bjornsson-deadlift-record.jpg?quality=75&strip=all",
+        "Image": "https://fitnessvolt.com/wp-content/uploads/2020/04/thor-bjornsson.jpg",
         "Hint": "He is a `world record` holder for the deadlift."
     },
     {
@@ -50,7 +106,7 @@
     },
     {
         "Name": "Mike Tyson",
-        "Description": "number of seconds his fastest championship knockout lasted",
+        "Description": "fastest championship knockout match lasted in seconds",
         "Score": 91,
         "Image": "https://www.bosshunting.com.au/wp-content/uploads/2020/05/Mike-Tyson-Return.jpg",
         "Hint": "Mike Tyson was 34 - 0 prior to this fight."
@@ -78,84 +134,77 @@
     },
     {
         "Name": "Stephen Curry",
-        "Description": "Three pointers hit",
+        "Description": "total three-point shots hit",
         "Score": 3615,
         "Image": "https://res.cloudinary.com/ybmedia/image/upload/c_crop,h_665,w_1182,x_342,y_46/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/1/4/143c2688c2961baa32a7097b0008cf007c52caf0/watch-steph-curry-shoots-lights-out-first-quarter.jpg",
         "Hint": "Stephen Curry has the most three pointers made in the NBA"
     },
     {
         "Name": "Klay Thompson",
-        "Description": "Three pointers hit in one game",
+        "Description": "total three-point shots hit in one game",
         "Score": 14,
         "Image": "https://i.insider.com/62ab37cc8eacc300192df920?width=1000&format=jpeg&auto=webp",
         "Hint": "Klay Thompson and Stephen Curry are commonly referred to as the Splash brothers"
     },
     {
         "Name": "Rasheed Wallace",
-        "Description": "Times kicked out from NBA matches",
+        "Description": "total times kicked out from NBA matches",
         "Score": 29,
         "Image": "https://staticg.sportskeeda.com/editor/2023/08/5c75c-16916940110075-1920.jpg",
         "Hint": "Rasheed Wallace is currently the most ejected player of all time"
     },
     {
         "Name": "Davis Love III",
-        "Description": "Longest golf drive in a PGA tournament (yards)",
+        "Description": "longest golf drive in a PGA tournament (yards)",
         "Score": 476,
         "Image": "https://ekcfbmsotzc.exactdn.com/en/blog/wp-content/uploads/2023/08/PGA-Max-Homa-BMW-BetMGM-1024x578.jpg?strip=all&lossy=1&ssl=1",
         "Hint": "The average drive of a PGA tour golfer is 277 yards"
     },
     {
         "Name": "Tom Brady",
-        "Description": "Total passing touchdowns thrown",
+        "Description": "total passing touchdowns thrown",
         "Score": 649,
         "Image": "https://phantom-marca.unidadeditorial.es/00312a04e089c0d499ddee47bb4bc630/crop/0x0/698x465/resize/660/f/webp/assets/multimedia/imagenes/2022/12/30/16724195310107.jpg",
         "Hint": "Tom brady averaged almost 2 passing touchdowns per game in his career"
     },
     {
         "Name": "Wayne Gretzky",
-        "Description": "Total assists throughout his hockey career",
+        "Description": "total assists throughout his hockey career",
         "Score": 1963,
         "Image": "https://cdn.britannica.com/99/193199-050-B96E48A0/Wayne-Gretzky-2007.jpg",
         "Hint": "Wayne gretzky holds the record for both the most assists and goals in NHL history"
     },
     {
-        "Name": "Micky Mantle",
-        "Description": "Longest home run hit in an MLB game (feet)",
-        "Score": 634,
-        "Image": "https://guideposts.org/wp-content/uploads/2013/06/mmmantle_marquee.jpg.webp",
-        "Hint": "The shortest home run ever hit was 302 feet in Fenway Park"
-    },
-    {
         "Name": "Michael Phelps",
-        "Description": "Gold medals won throughout his career",
+        "Description": "gold medals won throughout his career",
         "Score": 23,
         "Image": "https://static01.nyt.com/images/2012/08/05/sports/05oly-phelps4/05oly-phelps4-superJumbo.jpg?quality=75&auto=webp",
         "Hint": "The second most olympic gold medals held is 9"
     },
     {
         "Name": "Lewis Hamilton",
-        "Description": "Fastest Belgian Grand Prix lap time (seconds)",
+        "Description": "fastest Belgian Grand Prix lap time (seconds)",
         "Score": 107,
         "Image": "https://imageresizer.static9.net.au/QdynDmapJ66Xg6_aw7hTX1hymQw=/1396x785/https%3A%2F%2Fprod.static9.net.au%2Ffs%2F1331d24c-62ba-4490-9d6a-16d80a18b6cf",
         "Hint": "Lewis hamilton currently has 103 victories in the Formula 1"
     },
     {
         "Name": "Shaquille O'Neal",
-        "Description": "Three pointers hit throughout his career",
+        "Description": "total three point-shots hit throughout his career",
         "Score": 1,
         "Image": "https://i.kym-cdn.com/entries/icons/original/000/029/043/Shaq_Tries_to_Not_Make_a_Face_While_Eating_Spicy_Wings___Hot_Ones_11-21_screenshot.png",
         "Hint": "Shaq claims to be the most dominant player in NBA history"
     },
     {
         "Name": "Magnus Carlsen",
-        "Description": "Highest chess FIDE rating hit",
+        "Description": "highest chess FIDE rating hit",
         "Score": 2882,
         "Image": "https://media.npr.org/assets/img/2022/07/20/ap21344477319182_custom-32c06406f279c69d5e853bc30649315b43e5cc19.jpg?s=5",
         "Hint": "Magnus carlsen has held world number one since 2011"
     },
     {
         "Name": "Roger Federer",
-        "Description": "Longest winning streak in professional tennis games",
+        "Description": "longest winning streak in professional tennis games",
         "Score": 43,
         "Image": "https://media.gq-magazine.co.uk/photos/5d139f94533a234181c62b54/16:9/w_2240,c_limit/roger-federer-02-gq-20jun18_pa_b.jpg",
         "Hint": "Roger Federer has the second longest winning streak in tennis history"
